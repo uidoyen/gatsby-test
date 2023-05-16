@@ -1,7 +1,6 @@
 # .github/workflows/netlify.yml
 name: Build and Deploy to Netlify
 on:
-  push:
   pull_request:
 jobs:
   build:
@@ -14,7 +13,7 @@ jobs:
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0
         with:
-          publish-dir: "./public"
+          publish-dir: "public"
           production-branch: refresh
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Deploy from GitHub Actions"
