@@ -49,7 +49,7 @@ export const FeaturedVideos: React.FC = () => {
         >
           <FlexItem>
             <Title size={TitleSizes["4xl"]} headingLevel="h2">
-              Videos
+              Videoss
             </Title>
             <Text>
               Additional videos will be available on the OpenShift youtube
