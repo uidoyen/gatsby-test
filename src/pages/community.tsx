@@ -43,6 +43,7 @@ const CommunityPage: React.FC<PageProps> = () => {
         isWidthLimited
         padding={{ default: "padding" }}
       >
+        dfdf
         <Footer />
       </PageSection>
     </Layout>
