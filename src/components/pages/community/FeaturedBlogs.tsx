@@ -49,7 +49,7 @@ export const FeaturedBlogs: React.FC = () => {
         >
           <FlexItem>
             <Title size={TitleSizes["4xl"]} headingLevel="h2">
-              Featured Blogs
+              Featured Blogss
             </Title>
           </FlexItem>
         </Flex>
