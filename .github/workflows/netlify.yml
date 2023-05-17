@@ -7,11 +7,9 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-
-      # ( Build to ./dist or other directory... )
       - run: npm ci
       - run: npm run build
-      - name: Deploy to Netlify
+      - name: Preview Deploy
         uses: jsmrcaga/action-netlify-deploy@v2.0.0
         with:
           publish-dir: './public'
