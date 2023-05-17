@@ -16,7 +16,7 @@ export const CommunityMeetins: React.FC = () => {
     <Grid hasGutter className="pf-u-mx-auto pf-u-mb-3xl max-width-900">
       <GridItem lg={4} sm={6}>
         <Title size={TitleSizes["2xl"]} headingLevel="h2">
-          Meetingss
+          Meetings
         </Title>
         <Text component={TextVariants.p}>
           Community meetings for Open Data Hub are conducted regularly. Get the
